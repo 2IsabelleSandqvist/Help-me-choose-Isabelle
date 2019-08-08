@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background-color: pink;
+}
+
+
+h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  color:grey;
+  text-shadow:
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000;
+}
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+.inputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400px;
+  }
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+margin-top: 10px;
+}
+
+.addOption {
+margin-top: 10px;
+}
+
+button {
+  background: white;
+  font-weight: bold;
+}
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+
+}
